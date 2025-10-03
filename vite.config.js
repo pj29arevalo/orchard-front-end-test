@@ -7,6 +7,7 @@ import path from 'node:path';
  * Simple, production-ready configuration with sensible defaults
  */
 export default defineConfig({
+
   // Public directory for static assets
   publicDir: 'src/assets',
 
