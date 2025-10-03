@@ -113,6 +113,7 @@ class OrchartFrontendTest {
         img.tabIndex = 0;
         img.setAttribute('role', 'button');
         img.setAttribute('aria-label', `Click to view larger image ${index + 1}`);
+        if (index !== 0) img.loading = 'lazy';
         
         imagesContainer.appendChild(img);
       });
@@ -160,6 +161,7 @@ class OrchartFrontendTest {
     img.setAttribute('data-high-res', cardData.image.highRes);
     img.alt = cardData.image.alt;
     img.className = 'card-image';
+    img.loading = 'lazy';
 
     const h3 = document.createElement('h3');
     h3.textContent = cardData.title;

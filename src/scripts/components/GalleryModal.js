@@ -104,6 +104,7 @@ export class GalleryModal {
     
     this.modalImage.src = highResImage;
     this.modalImage.alt = imageElement.alt;
+    this.modalImage.loading = 'lazy';
     this.modal.classList.add('active');
     
     // Accessibility: Focus management
