@@ -1,12 +1,35 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
-import path from 'node:path';
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 /**
  * Vite Configuration for Orchard Front-end Test
  * Simple, production-ready configuration with sensible defaults
  */
 export default defineConfig({
+  // Plugins
+  plugins: [
+    ViteImageOptimizer({
+      png: {
+        quality: 80,
+      },
+      jpeg: {
+        quality: 75,
+      },
+      webp: {
+        quality: 80,
+      },
+      avif: {
+        quality: 70,
+      },
+      svg: {
+        plugins: [
+          { name: 'removeViewBox', active: false },
+          { name: 'sortAttrs' },
+        ],
+      },
+    }),
+  ],
 
   // Public directory for static assets
   publicDir: 'src/assets',
