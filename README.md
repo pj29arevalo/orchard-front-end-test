@@ -56,8 +56,8 @@ orchard-front-end-test/
 ├── src/
 │   ├── assets/
 │   │   ├── images/              # Image assets
-│   │   └── data/
-│   │       └── content.json     # CMS-ready content data
+│   ├── data/
+│   │   ├── content.json        # CMS-ready content data
 │   ├── styles/
 │   │   ├── main.css            # Main CSS entry (imports all styles)
 │   │   ├── base/
@@ -178,7 +178,7 @@ import { CardLinkTracker } from './components/CardLinkTracker.js';
 
 #### Content Management
 ```json
-// src/assets/data/content.json
+// src/data/content.json
 {
   "gallery": {
     "title": "What Does Cooking Mean?",
@@ -206,14 +206,6 @@ npm run build
 - Minified JavaScript with tree shaking
 - Optimized and minified CSS
 - Compressed images
-- Content-hashed filenames for caching
-- Source maps for debugging
-
-**Build Statistics:**
-- Total bundle size: ~50KB (gzipped)
-- CSS: ~15KB
-- JavaScript: ~25KB
-- Images: Optimized SVG placeholders
 
 ### Deployment Options
 
