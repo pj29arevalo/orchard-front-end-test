@@ -226,6 +226,6 @@ Follow the prompts to deploy.
 
 ### Continuous Deployment
 
-GitHub Actions workflow automatically:
+Netlify App automatically:
 - ✅ Installs dependencies
 - ✅ Builds the project to netlify when changes pushed automatically
