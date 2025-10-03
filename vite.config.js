@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
+import path from 'node:path';
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 /**
