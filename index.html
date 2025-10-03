@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the science of cooking with molecular gastronomy techniques and colorful culinary experiences">
+    <meta name="keywords" content="cooking, molecular gastronomy, culinary, food science, recipes">
+    <meta name="author" content="Orchard Cooking">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pj-orchard-test.netlify.app/">
+    <meta property="og:title" content="What Does Cooking Mean? - Orchard Cooking">
+    <meta property="og:description" content="Explore molecular gastronomy and the science behind perfect cooking techniques">
+    <meta property="og:image" content="https://pj-orchard-test.netlify.app/assets/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pj-orchard-test.netlify.app/">
+    <meta property="twitter:title" content="What Does Cooking Mean? - Orchard Cooking">
+    <meta property="twitter:description" content="Explore molecular gastronomy and the science behind perfect cooking techniques">
+    <meta property="twitter:image" content="https://pj-orchard-test.netlify.app/assets/og-image.jpg">
+
+    <title>Orchard Front-end Test</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="canonical" href="https://pj-orchard-test.netlify.app/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>   
+    <main id="main-content">
+        <!-- Gallery Block -->
+        <section class="gallery-section" aria-label="Cooking gallery and information">
+            <div class="container">
+                <div class="gallery-grid">
+                    <div class="gallery-images" data-gallery="main">
+                        <!-- Images will be loaded via JavaScript from content.json -->
+                    </div>
+                    
+                    <div class="gallery-content">
+                        <h1 id="gallery-title"><!-- Loaded from content.json --></h1>
+                        <div id="gallery-text"><!-- Loaded from content.json --></div>
+                        
+                        <div class="perfect-egg">
+                            <h3 id="egg-title"><!-- Loaded from content.json --></h3>
+                            <p id="egg-text"><!-- Loaded from content.json --></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards Block -->
+        <section class="cards-section" aria-label="Taste the colours collection">
+            <div class="container">
+                <h2 class="cards-title" id="cards-title"><!-- Loaded from content.json --></h2>
+                <div class="cards-grid" id="cards-container">
+                    <!-- Cards will be loaded via JavaScript from content.json -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal for Gallery Images -->
+    <div class="modal" id="imageModal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal" aria-label="Close modal">&times;</button>
+            <img class="modal-image" id="modalImage" alt="">
+        </div>
+    </div>
+
+    <script type="module" src="/src/scripts/main.js"></script>
+</body>
+</html>

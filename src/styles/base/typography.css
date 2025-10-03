@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: var(--font-size-4xl);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: var(--font-size-4xl);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.43;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--color-primary);
+  color: white;
+  padding: var(--spacing-xs);
+  text-decoration: none;
+  transition: top var(--transition-fast);
+  z-index: var(--z-skip-link);
+  border-radius: var(--border-radius);
+}
+
+.skip-link:focus {
+  top: 6px;
+}

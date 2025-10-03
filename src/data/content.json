@@ -1,0 +1,91 @@
+{
+  "gallery": {
+    "title": "What Does Cooking Mean?",
+    "content": [
+      "Is it simply applying heat to a food product? A way of making certain food safe to eat? Or a way to create flavour and make food more appealing? This is just part of what Hervé This, the father of molecular gastronomy, has dedicated his life to finding out. We spoke to him to find out what his experiments have told him. And in the process even discovered the secret to cooking the perfect egg..."
+    ],
+    "perfectEgg": {
+      "title": "The Perfect Egg",
+      "description": "Keep water between 67 and 68°C for a flavourful, tender yolk"
+    },
+    "images": [
+      {
+        "src": "/images/left.jpg",
+        "highRes": "/images/left@3x.jpg",
+        "alt": "Large cooking pot with steam and ingredients on a fire",
+        "classes": ["gallery-image", "large"],
+        "tabindex": "0",
+        "role": "button",
+        "ariaLabel": "Click to view larger image of cooking pot"
+      },
+      {
+        "src": "/images/right-top.jpg",
+        "highRes": "/images/right-top@3x.jpg",
+        "alt": "Chef preparing molecular gastronomy dish on a grid surface",
+        "classes": ["gallery-image", "top-right"],
+        "tabindex": "0",
+        "role": "button",
+        "ariaLabel": "Click to view larger image of chef preparation"
+      },
+      {
+        "src": "/images/right-bottom.jpg",
+        "highRes": "/images/right-bottom@3x.jpg",
+        "alt": "Eight perfectly cooked eggs showing various yolk consistencies",
+        "classes": ["gallery-image", "bottom-right"],
+        "tabindex": "0",
+        "role": "button",
+        "ariaLabel": "Click to view larger image of perfect eggs"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Taste The Colours",
+    "items": [
+      {
+        "title": "RED",
+        "image": {
+          "src": "/images/red.jpg",
+          "highRes": "/images/red@3x.jpg",
+          "alt": "Red colored molecular gastronomy creation on a spoon"
+        },
+        "description": "Red foods remind us of berries and soft fruits, so we anticipate a sweet taste.",
+        "link": {
+          "text": "Learn more about red flavours",
+          "href": "/red-foods",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      },
+      {
+        "title": "Green",
+        "image": {
+          "src": "/images/green.jpg",
+          "highRes": "/images/green@3x.jpg",
+          "alt": "Green colored molecular gastronomy creation on a spoon"
+        },
+        "description": "Fresh, zingy green colours are reminiscent of unripe fruit, promising sour or acid flavours.",
+        "link": {
+          "text": "Discover green taste profiles",
+          "href": "/green-foods",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      },
+      {
+        "title": "White",
+        "image": {
+          "src": "/images/white.jpg",
+          "highRes": "/images/white@3x.jpg",
+          "alt": "White colored molecular gastronomy creation on a spoon"
+        },
+        "description": "White foods evoke memories of salt and salty flavours, driving the expectation of a savoury treat.",
+        "link": {
+          "text": "Explore white food science",
+          "href": "/white-foods",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      }
+    ]
+  }
+}

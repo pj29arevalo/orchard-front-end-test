@@ -1,0 +1,25 @@
+{
+  "name": "orchard-front-end-test",
+  "version": "1.0.0",
+  "description": "Production-ready cooking website with interactive gallery and cards components for molecular gastronomy content. Built with Vite for blazing-fast development and optimized production builds.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist",
+    "predeploy": "npm run build"
+  },
+  "author": "Elpidio Arevalo Jr. <elpidioarevalojr@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pj29arevalo/orchard-front-end-test.git"
+  },
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "vite": "^5.0.12"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
